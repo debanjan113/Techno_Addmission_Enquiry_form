@@ -1,0 +1,82 @@
+body
+{
+    background-color: #bad290;
+}
+
+.head
+{
+    font-family: 'PT Serif', serif;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #fcf9f9;
+    background-color: rgb(209, 8, 8);
+    text-align: center;
+    padding: 40px 90 px;
+    font-size: 60px;
+    padding: 40px;
+}
+
+.paraone
+{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: rgb(100, 19, 153);
+    font-size: 20px;
+}
+
+.paratwo
+{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    color: rgb(100, 19, 153);
+    font-size: 20px;
+}
+
+.headap
+{
+    color: #ffeb3b;
+    background-color: #564343;
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid #ffeb3b;
+    border-radius: 60px;
+}
+
+.pap
+{
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+    padding: 2px 20px;
+}
+
+.bcap
+{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+.bbap
+{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: justify;    
+}
+
+.mcap
+{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: justify;        
+}
+
+.note
+{
+    color: rgb(216, 13, 13);
+}

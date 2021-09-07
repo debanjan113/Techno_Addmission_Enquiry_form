@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Addmission Form</title>
+    <link rel="stylesheet" href="bca.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="bcahead">Welcome to BCA Online Addmission Enquery form</h2>
+    <p class="bcapara">Fill up this online enquery form to show your interest in taking admission into the institute. We will contact you for further processing.</p>
+
+    <form action="bca.php">
+
+        <p class="pd">I) Personal Details:-</p>
+
+        <div class="pdform">
+
+            Applied for : 
+            <select class="course" name="course" id="course">
+                <option value="bca" selected>BCA</option>
+            </select>
+            <br><br>
+            First Name : <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+            Middle Name : <input type="text" name="mname" id="mname"
+            placeholder="Enter your middle name">
+            Last Name : <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+            <br><br>
+            Address : <input type="text" name="add" id="add" placeholder="Enter your address">
+            PIN : <input type="number" name="pin" id="pin" placeholder="Enter your pincode">
+            <br><br>
+            District : <input type="text" name="dis" id="dis" placeholder="Enter your district">
+            <br><br>
+            State : <input type="text" name="state" id="state" placeholder="Enter your state">
+            <br><br>
+            Mobile : <input type="number" name="ph" id="ph" placeholder="Enter 10 digit number">
+            Email ID : <input type="email" name="email" id="email" placeholder="example@mail.com">
+            <br><br>
+            Date of Birth : <input type="date" name="dob" id="dob">
+            <br><br>
+            Gender :&nbsp;&nbsp; Male <input class="gender" type="radio" name="mygender"> Female <input class="gender" type="radio" name="mygender"> Others <input class="gender" type="radio" name="mygender">
+            <br><br>
+            Father's name : <input type="text" name="fn" id="fn" placeholder="Enter your father's name">
+            Mother's name : <input type="text" name="mn" id="mn" placeholder="Enter your mother's name">
+            <br><br>
+            Guardian's Mobile : <input type="number" name="gm" id="gm" placeholder="Enter 10 digit number">
+
+
+        </div>
+
+        <p class="ad">II) Academic Details:-</p>
+
+        <div class="adform">
+
+            <p class="subp">a) 10th Examination Details:-</p>
+
+            institute : <input type="text" name="sins" id="sins" placeholder="Enter your institute's name">
+            Year of Passing : 
+            <select class="ypcss" name="syp" id="syp">
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+            </select>
+            Board/Council : <input type="text" name="sbn" id="sbn" placeholder="Enter your board/council name">
+            <br><br>
+            Marks Obtained : <input type="number" name="sm" id="sm" placeholder="Enter your marks">
+            Marks in Percentage : <input type="number" name="sp" id="sp" placeholder="Enter your marks's percentage">
+
+            <p class="subp">b) (10 +2)th Examination Details:-</p>
+
+            institute : <input type="text" name="sins" id="sins" placeholder="Enter your institute's name">
+            Year of Passing : 
+            <select class="ypcss" name="syp" id="syp">
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+            Board/Council : <input type="text" name="sbn" id="sbn" placeholder="Enter your board/council name">
+            <br><br>
+            Marks Obtained : <input type="number" name="sm" id="sm" placeholder="Enter your marks">
+            Marks in Percentage : <input type="number" name="sp" id="sp" placeholder="Enter your marks's percentage">
+            <br><br>
+            Do you have Math/business Math in (10+2) ? 
+            <select class="mathcss" name="yn" id="yn">
+                <option value="yes" selected>yes</option>
+                <option value="no">no</option>
+            </select>
+
+        </div>
+
+        <br>
+        <div class="checkboxcss">
+        <input class="checkbox" type="checkbox" name="agree" id="agree"> I agree with the terms and condition
+        </div>
+        <br><br>
+        <div class="submit">
+            <button class="btn1">Submit your details</button>
+        </div>
+        <br>
+        <div class="reset">
+            <button class="btn2" type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
